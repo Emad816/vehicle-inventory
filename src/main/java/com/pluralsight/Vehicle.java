@@ -10,7 +10,7 @@ public class Vehicle {
     public Vehicle() {
 
     }
-    public Vehicle(long vehicleId, String makeModel, int odometerReading, String color, double price) {
+    public Vehicle(long vehicleId, String makeModel, String color, int odometerReading, double price) {
         this.vehicleId = vehicleId;
         this.makeModel = makeModel;
         this.odometerReading = odometerReading;
@@ -57,4 +57,6 @@ public class Vehicle {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public void displayAllVehicle()
 }
