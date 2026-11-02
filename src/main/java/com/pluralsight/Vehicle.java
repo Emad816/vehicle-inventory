@@ -58,5 +58,8 @@ public class Vehicle {
         this.price = price;
     }
 
-    //public void displayAllVehicle();
+    public String toString() {
+        return vehicleId + " | " + makeModel + " | " + color
+                + " | " + odometerReading + " miles | $" + String.format("%.2f", price);
+    }
 }
