@@ -58,5 +58,5 @@ public class Vehicle {
         this.price = price;
     }
 
-    public void displayAllVehicle()
+    //public void displayAllVehicle();
 }
